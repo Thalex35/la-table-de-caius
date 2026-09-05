@@ -7,7 +7,7 @@ import path from "path";
 // Just a static single-page site that builds to /dist and can be
 // hosted anywhere (Netlify, Vercel static, an S3 bucket, cPanel, etc.)
 export default defineConfig({
-  base: '/la-table-de-caius/',
+  base: process.env.VERCEL ? "/" : "/la-table-de-caius/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
