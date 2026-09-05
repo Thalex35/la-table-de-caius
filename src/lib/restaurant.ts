@@ -1,46 +1,45 @@
 // All the "content" for the site lives here: restaurant info, the menu,
 // gallery captions, testimonials, FAQ. Keeping it in one file makes it easy
 // to update prices/hours/text without touching any component.
-import { placeholderImg } from "./placeholder-images";
+import { restaurantImages } from "./restaurant-images";
 
-// See placeholder-images.ts for how to swap these for real photos.
 export const img = {
   /** Véranda aux nappes bleues, grandes fenêtres sur le jardin */
-  veranda: placeholderImg.veranda,
+  veranda: restaurantImages.veranda,
   /** Salle à manger principale, tables dressées */
-  salleTables: placeholderImg.salleTables,
+  salleTables: restaurantImages.salleTables,
   /** Plaque gravée « La Table de Caïus » */
-  enseigne: placeholderImg.enseigne,
+  enseigne: restaurantImages.enseigne,
   /** Buffet de salades et crudités */
-  buffetSalades: placeholderImg.buffetSalades,
+  buffetSalades: restaurantImages.buffetSalades,
   /** Assiette de riz blanc parfumé */
-  platRizBlanc: placeholderImg.platRizBlanc,
+  platRizBlanc: restaurantImages.platRizBlanc,
   /** Tassot de bœuf, oignons marinés, bananes pesées */
-  platTassot: placeholderImg.platTassot,
+  platTassot: restaurantImages.platTassot,
   /** Le bar et ses bouteilles */
-  bar: placeholderImg.bar,
+  bar: restaurantImages.bar,
   /** Poisson sauce tomate, haricots verts */
-  platPoissonHaricots: placeholderImg.platPoissonHaricots,
+  platPoissonHaricots: restaurantImages.platPoissonHaricots,
   /** Gâteau au beurre, glaçage */
-  gateau: placeholderImg.gateau,
+  gateau: restaurantImages.gateau,
   /** Extérieur : porte rouge, patio et jardin */
-  exterieur: placeholderImg.exterieur,
+  exterieur: restaurantImages.exterieur,
   /** Poulet grillé, salade croquante et riz */
-  platPouletGrille: placeholderImg.platPouletGrille,
+  platPouletGrille: restaurantImages.platPouletGrille,
   /** Assiette avocat, galette de maïs et légumes */
-  platAvocat: placeholderImg.platAvocat,
+  platAvocat: restaurantImages.platAvocat,
   /** Filet de poisson sauce crème, riz jaune */
-  platFiletCreme: placeholderImg.platFiletCreme,
+  platFiletCreme: restaurantImages.platFiletCreme,
   /** Poisson frit, salade de betterave, bananes pesées */
-  platPoissonFrit: placeholderImg.platPoissonFrit,
+  platPoissonFrit: restaurantImages.platPoissonFrit,
   /** Bar aux murs jaunes */
-  barJaune: placeholderImg.barJaune,
+  barJaune: restaurantImages.barJaune,
   /** Salle aux murs de brique et poutres */
-  salleBrique: placeholderImg.salleBrique,
+  salleBrique: restaurantImages.salleBrique,
   /** Véranda de brique, tables bleues */
-  verandaBrique: placeholderImg.verandaBrique,
+  verandaBrique: restaurantImages.verandaBrique,
   /** Verre de vin sur nappe */
-  vin: placeholderImg.vin,
+  vin: restaurantImages.vin,
 };
 
 export const restaurant = {
